@@ -28,7 +28,11 @@ exports.getEditProduct = (req, res, next) => {
       product: product
     });
   });
-  };
+};
+
+exports.postEditProduct = () => {
+  
+}
 
 exports.getProducts = (req, res, next) =>{
   Product.fetchAll(products => {
